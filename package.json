@@ -1,0 +1,24 @@
+{
+  "name": "oranghrmautomaion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "cucumber-js features/login.feature",
+    "test": "cucumber-js --format allure-cucumberjs/reporter",
+    "report": "allure generate allure-results --clean -o allure-report",
+    "open": "allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.8.2",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "allure-commandline": "^2.38.1",
+    "allure-cucumberjs": "^3.7.1",
+    "dotenv": "^17.4.2"
+  }
+}
