@@ -1,5 +1,4 @@
 Feature: OrangeHRM Login Functionality
-
   Background:
     Given user navigates to login page
 
